@@ -1,8 +1,29 @@
 aid: mision-admision
 name: Mision Admision
-description: Mision Admision is a company surfaced as a portfolio company of 500-global and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Misión Admisión is a Mexican education-technology company based in Mérida that
+  prepares high school and university applicants for standardized admission exams
+  such as EXANI I, EXANI II, PAA, and the UNAM, IPN, and UAM entrance tests. Its
+  consumer web platform (misionadmision.com) delivers self-paced online courses,
+  video lessons, interactive study capsules, thousands of practice questions,
+  full-length exam simulators, live virtual and in-person classes, and the physical
+  Sputnik smartbook guides. Founded in 2001 and online since 2015, the company is a
+  seed-stage portfolio company of 500 Global. It is a consumer-facing EdTech
+  platform and publishes no public developer API surface at this time; this profile
+  is maintained in the API Evangelist network for tracking and enrichment.
 url: https://raw.githubusercontent.com/api-evangelist/mision-admision/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://www.misionadmision.com
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
@@ -11,9 +32,15 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Education
+- EdTech
+- Exam Preparation
+- Online Learning
+- Mexico
+- Consumer
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -21,5 +48,24 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/mision-admision-domain-security.yml
 - type: Website
   url: https://misionadmision.com
+- type: Blog
+  url: https://blog.misionadmision.com/
+- type: Pricing
+  url: https://www.misionadmision.com/compra.html
+- type: SignUp
+  url: https://www.misionadmision.com/registro.html
+- type: Login
+  url: https://www.misionadmision.com/iniciar-sesion.html
+- type: Support
+  url: https://www.misionadmision.com/equipo.html
+- type: PrivacyPolicy
+  url: https://www.misionadmision.com/aviso-de-privacidad.html
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
