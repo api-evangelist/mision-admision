@@ -1,0 +1,14 @@
+{
+  "repo": "mision-admision",
+  "feeds": [
+    {
+      "source": "https://misionadmision.com",
+      "feed_url": "https://misionadmision.com",
+      "title": "",
+      "saved": 0,
+      "method": "none"
+    }
+  ],
+  "post_count": 0,
+  "fetched": "2026-07-25T15:00:33Z"
+}
