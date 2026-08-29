@@ -12,6 +12,17 @@ description: >-
   platform and publishes no public developer API surface at this time; this profile
   is maintained in the API Evangelist network for tracking and enrichment.
 url: https://raw.githubusercontent.com/api-evangelist/mision-admision/refs/heads/main/apis.yml
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
